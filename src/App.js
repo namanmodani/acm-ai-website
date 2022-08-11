@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
-import "./App.css"
+import React from 'react';
+import './App.css';
 
 import { 
   BrowserRouter as Router, 
   Route, 
   Routes, 
-  Link, 
-  Redirect 
 } from 'react-router-dom';
 
 // Pages
