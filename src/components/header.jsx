@@ -9,8 +9,9 @@ const NavBar = (props) => {
   return (
     <NavBarContainer {...props}>
       <Logo
-        w="90px"
-        color={["white", "white", "primary.500", "primary.500"]}
+        w="100px"
+        color={["white", "white", "primary.500", "primary.500"]
+      }
       />
       <MenuLinks isOpen={isOpen} />
     </NavBarContainer>
@@ -39,6 +40,7 @@ const MenuLinks = ({ isOpen }) => {
         justify={["center", "space-between", "flex-end", "flex-end"]}
         direction={["column", "row", "row", "row"]}
         fontWeight="bold"
+        ml="14rem"
       >
         <MenuItem component={Link} to="/events">Events</MenuItem>
         <MenuItem component={Link} to="/outreach">Outreach</MenuItem>
@@ -59,9 +61,9 @@ const NavBarContainer = ({ children, ...props }) => {
       as="nav"
       align="center"
       justify="space-between"
-      ml={2}
-      mr="4rem"
+      ml="8rem"
       mb={8}
+      w={80}
       p={8}
       bg={["primary.500", "primary.500", "transparent", "transparent"]}
       color={["white", "white", "primary.700", "primary.700"]}

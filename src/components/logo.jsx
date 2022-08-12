@@ -1,13 +1,12 @@
-import React from "react";
-import { Box, Text } from "@chakra-ui/react";
+import React from "react"
+import { Image } from "@chakra-ui/image"
 import { Link } from '@chakra-ui/react'
 
-export default function Logo(props) {
-  return (
-    <Box {...props}>
-      <Text fontSize="lg" fontWeight="bold">
-        <Link href = "/">ACM AI</Link>
-      </Text>
-    </Box>
-  );
-}
+const Logo = () => (
+  <Image
+    src="https://raw.githubusercontent.com/uclaacmai/uclaacmai.github.io/master/new_design/ai_logo_light.png"
+    width="4.2rem"
+  />
+)
+
+export default Logo;
