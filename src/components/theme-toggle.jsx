@@ -12,7 +12,7 @@ const ToggleColorMode = () => {
       bottom="2rem"
       left="2rem"
       size="md"
-      ml="17rem"
+      ml="2rem"
     >
       {colorMode === "dark" ? (
         <SunIcon w="0.9rem" />
