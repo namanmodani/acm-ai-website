@@ -8,7 +8,6 @@ import {
     Box
   } from '@chakra-ui/react'
 
-
 const FAQ = () => {
   return (
     <Accordion 
