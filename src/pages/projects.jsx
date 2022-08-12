@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "../components/header";
 
 function Projects(){
     return(
         <div>
-            <h1>Projects</h1>
+            <Header></Header>
         </div>
     );
 }

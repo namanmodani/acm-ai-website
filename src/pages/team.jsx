@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "../components/header";
 
 function Team(){
     return(
         <div>
-            <h1>Team</h1>
+            <Header></Header>
         </div>
     );
 }

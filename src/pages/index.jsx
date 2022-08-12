@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "../components/header";
 
-const Index = () => {
+function Index(){
     return(
         <div>
-            Index
+            <Header></Header>
         </div>
     );
 }

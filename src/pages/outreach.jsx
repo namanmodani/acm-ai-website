@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "../components/header";
 
 function Outreach(){
     return(
         <div>
-            <h1>Outreach</h1>
+            <Header></Header>
         </div>
     );
 }

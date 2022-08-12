@@ -1,6 +1,7 @@
 import React from "react";
+import Header from "../components/header";
 
-const Error = () => {
+function Error(){
     return(
         <div>
             <h1>Error</h1>
