@@ -38,7 +38,6 @@ const MenuLinks = ({ isOpen }) => {
         align="center"
         justify={["center", "space-between", "flex-end", "flex-end"]}
         direction={["column", "row", "row", "row"]}
-        pt={[4, 4, 0, 0]}
         fontWeight="bold"
       >
         <MenuItem component={Link} to="/events">Events</MenuItem>
